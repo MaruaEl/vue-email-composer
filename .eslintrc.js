@@ -49,6 +49,6 @@ module.exports = {
     'arrow-body-style': ['error', 'as-needed'],
     'import/no-dynamic-require': 'off',
     'no-useless-escape': 'off',
-    // 'vue/attribute-hyphenation': [2, 'never', { ignore: ['custom-prop'] }]
+    'no-undef': 'off',
   },
 };
