@@ -14,7 +14,6 @@ const localVue = createLocalVue();
 
 describe('ButtonComponent.vue', () => {
   let vuetify;
-
   beforeEach(() => {
     vuetify = new Vuetify();
   });
