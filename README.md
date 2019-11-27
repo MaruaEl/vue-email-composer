@@ -23,6 +23,7 @@ The use of a Vuex store here make it easy to handle the form data with a persist
 At the moment the form doesn't actually send the email.
 
 Testing made using the [vue-test utility](https://vue-test-utils.vuejs.org/).
+The tests I've wrote are a bit basic but I'm learning to write tests and to think from a business perspective what to test rather than test the library itself. So this is my go at playing around with unit tests. 
 
 -----
 
