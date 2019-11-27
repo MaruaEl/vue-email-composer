@@ -35,12 +35,12 @@ export default {
 </script>
 <style lang="scss">
 .uploader {
-
   &__input {
     display: block;
     opacity: 0;
     height: 0;
     width: 0;
+
     &:focus {
       outline: none;
     }

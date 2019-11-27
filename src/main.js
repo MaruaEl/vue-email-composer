@@ -23,7 +23,6 @@ Components.map(
   },
 );
 
-
 Vue.config.productionTip = false;
 
 new Vue({

@@ -1,5 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`ButtonComponent.vue It should have a button text 1`] = `<v-btn type="button" color="primary" minwidth="auto" height="auto" to="" rounded="" class="lighten-2 white--text">Send</v-btn>`;
-
-exports[`buttonComponent.vue It should have a button text 1`] = `<v-btn type="button" color="primary" minwidth="auto" height="auto" to="" rounded="" class="lighten-2 white--text">Send</v-btn>`;

@@ -2,31 +2,22 @@
 import Vue from 'vue';
 import Vuetify from 'vuetify';
 
-
 // Utilities
-import { mount, shallowMount, createLocalVue } from '@vue/test-utils';
+import { shallowMount } from '@vue/test-utils';
+import EmailComposer from '@/components/email-composer';
 
 // Components
-import ButtonComponent from '@/components/global/ButtonComponent';
 
-Vue.use(Vuetify);
-const localVue = createLocalVue();
-
-describe('ButtonComponent.vue', () => {
-  let vuetify;
+describe('EmailComposer.vue', () => {
   beforeEach(() => {
-    vuetify = new Vuetify();
+    Vue.use(Vuetify);
   });
 
-  it('It should have a button text', () => {
-    const text = 'Send';
-    const wrapper = shallowMount(ButtonComponent, {
-      localVue,
-      vuetify,
-      propsData: {
-        buttonText: text,
-      },
+  it('it does not display attachments if there are no attachments', () => {
+    const wrapper = shallowMount(EmailComposer, {
+      stubs: ['button-component', 'input-component'],
     });
-    expect(wrapper.text()).toMatch(text);
+    wrapper.setData({ uploadedFiles: [] });
+    expect(wrapper.find('.image-uploade').exists()).toBe(false);
   });
 });

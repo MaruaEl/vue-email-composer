@@ -18,7 +18,7 @@ The user can add more than one email per field in this format:
 
 After submitting the form the user will see a confirmation page with a new button(wasn't in the design) that will let the user navigate back to the home page.
 
-The use of a Vuex store here make it easy to handle the form data with a persistent state to be able to easily re use the data.
+The use of a Vuex store here make it easy to handle the form data with a persistent state to be able to easily re use the form data.
 
 At the moment the form doesn't actually send the email.
 

@@ -211,20 +211,20 @@ export default {
 .email-composer {
   position: relative;
   border-radius: 7px;
-  background-color: #fff;
+  background-color: $color-white;
 
   &__form {
     padding: calcRem(20);
   }
 
   &__header {
-    background-color: #094358;
+    background-color: $color-dark-green;
     border-radius: 7px 7px 0 0;
     padding: calcRem(20);
   }
 
   &__title  {
-    color: #fff;
+    color: $color-white;
   }
 
   &__buttons-wrapper {
@@ -240,14 +240,14 @@ export default {
     height: fit-content;
     width: fit-content;
     border-radius: 50%;
-    border: 1px solid #e8e8e8;
+    border: 1px solid $color-light-grey;
     height: 40px;
     width: 40px;
     cursor: pointer;
 
     &--icon {
     display: inline-block;
-    color: #a5a7aa;
+    color: $color-grey;
     transform: rotate(-45deg);
     cursor: pointer;
     }
